@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+     <title>ACTIVIDAD</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+     <link rel="stylesheet" type="text/css" media="screen" href="./ESTILOS CSS/estilos.css">
+     <link rel="stylesheet" type="text/css" media="screen" href="./css/menu.css">
+     <!--<script src="main.js"></script--> 
+    <head>
+    <body>
+         <!--Inicia nuestro menu de la pagina--> 
+         <nav id="menu">
+            <ul class="menu">
+                <li class="logo"> 
+                    <a href="#">
+                         <!--Imagen del logo-->
+                         <img src="./IMAGENES/descarga.png">
+                  </a> 
+            </ul> 
+            <nav>
+                <ul>            
+                    <li>      
+                     </li><a href="index.html">Inicio<a></li>
+                     </li><a href="contactenos.html">Contactenos<a></li>
+                    <li>
+                   
+                </ul>
+            </nav>
+
+        <nav>
+
+        <div class="container">
+            <h1>CABALLEROS DEL ZODIACO<h1> 
+                   
+    
+            <!--INICIA FORMULARIO -->
+            <div>
+              <form method="POST"> 
+                    <divclass="section-flex">
+                        <div class="element-form">
+                            <div class="label">                    
+                                <label for="type">Tipo de mensaje</label>
+                            </div>    
+                    
+                             <select id="type" name="type"required>
+                                <option value="">Seleccione una opcion</option>
+                                <option value="Cotizacion">Cotizacion</option>
+                                <option value="Saludo"> Saludo</option>
+                                <option value="Queja"> Queja</option>
+                            </select>                    
+                        </div>
+
+                        <div class="element-form">
+                            <div class="label">
+                                <label for="name">Nombres</label>         
+
+                            </div>
+                            <input type="text" id="name" placeholder="Ingrese su nombre">                 
+                        </div>
+
+                        <div class="element-form">
+                             <div class="label">
+                                <label for="Email">Email</label> 
+                            </div>
+                            <input type="text" id="Email" id="Email" placeholder="example@correo.com"> 
+                        </div> 
+                        <div class="element-form">
+                            <div class="label">                      
+                                <label for="Celular">Celular</label>
+                            </div>
+                                <input type="text" id="Celular" id="Celular" placeholder="Ingrese su no.Celular">
+                            </div>    
+                            <div class="element-form">
+                            <div class="label">                       
+                                <label for="comment">Comentarios</label>
+                            <div>    
+                                <textarea id="coment" name="comment" placeholder="Ingrese su comentario">
+                                </textarea>
+                             </div>                      
+                
+                        <div class="element form">
+                            <div>
+                                <LABEL>Que Estudias</LABEL>
+                            </div>
+                                <label for="checbox">Elija una opcion</label>                        
+                            <div>
+                                <input type="checkbox"id="chk1"name="chk1">HTML
+                                <br>
+                                <input type="checkbox"id="chk2"name="chk2">CSS
+                                <br>
+                                <input type="checkbox"id="chk3"name="chk3">PHP
+                            </div>    
+                        </div>
+
+                    
+                        <div class="element form">
+                            <div>
+                                <LABEL>Que Estudias</LABEL>
+                            <div>
+                                <label for="checbox">Elija una opcion</label>
+                            </div>
+                            </div>
+                                <input type="radio"id="rd1"name="rd1">HTML
+                                <br>
+                                <input type="radio"id="rd2"name="rd2">CSS
+                                <br>
+                                <input type="radio"id="rd3"name="rd3">PHP
+                        </div>
+                                                  
+                        <div class="btn-div">
+                          
+                            <button type="Submit" onclick="validaciondecampos()">Enviar Datos</button>
+                        </div>  
+                    </div>                     
+                      
+                <form> 
+            </div>
+        </div>
+        
+            <footer>
+           <p>Creado por ING. JOSE CASTILLO</p>
+            </footer>     
+        
+            <script src="./java/jss.js"><script>                      
+
+    </body>
+</html>

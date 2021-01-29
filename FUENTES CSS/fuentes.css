@@ -1,0 +1,25 @@
+*{
+    margin:0px
+}
+
+/* Elemento */
+h1,h2{
+    text-align: left;
+}
+
+/* Clase */
+.propiedad {
+    text-align: centert;
+}
+
+
+/* ID */
+
+*propiedad{
+    text-align: center;   
+}
+
+disabled{
+    text-align: center;   
+}
+

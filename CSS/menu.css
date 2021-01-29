@@ -1,0 +1,68 @@
+
+nav {
+    background-color: rgb(163, 64, 64);
+    color: white;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}*/
+
+.menu li {
+    width: 10%;
+    list-style:none;
+}
+
+.menu a {
+    color: white;
+    font-family: "Indie Flower",cursive;
+    text-decoration: none;
+}
+   
+.menu a :hover{
+    background-color: white;
+    border:  5px white solid;
+    border-radius: 3px;
+    color:black;
+}
+
+.logo{
+    flex-grow:20;
+}
+
+.logo img{
+    width: 15%;
+    padding: 1% 2% 1% 5%;    
+}
+
+/*Menu desplegable*/
+
+#menu ul li{
+    margin: 0;
+    padding: 0;
+    float:left;
+    position:relative;    
+}
+
+#menu ul ul{
+
+    position: absolute;
+    top: 100%;
+    left:0;
+    background: black;
+    padding: 0;
+    display: none;    
+}
+
+#menu ul li :hover >ul {
+    display: block;
+}
+
+#menu ul li li {
+    float:none;
+    margin-top: 10px;
+    width: 150%;
+}
+    
+
